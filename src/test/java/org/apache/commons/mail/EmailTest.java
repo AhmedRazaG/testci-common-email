@@ -341,7 +341,6 @@ public class EmailTest {
      * Also, sendMimeMessage is overridden to simulate sending without a real SMTP server.
      */
     public static class EmailConcrete extends Email {
-        @Override
         public Email setMsg(String msg) throws EmailException {
             this.setContent(msg, Email.TEXT_PLAIN);
             return this;
