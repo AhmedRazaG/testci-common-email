@@ -40,7 +40,7 @@ Getting started:
   Run the 'mvn site assembly:assembly' command.  The source and binary
   distributions are created in the 'target' directory.
 
-4) Use
+4) Used of file
 
   Simply include the jar file built in step #1 in your classpath.  Import the
   classes that you want to use and you are ready to go!
